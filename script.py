@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 file = 'testfile.xlsx'
 output = 'output.xlsx'
 engine = create_engine('sqlite://', echo=False)
-df = pd.read_excel(file, sheet_name='2018-12-29-bbs-listings')
+df = pd.read_excel(file, sheet_name='biz-listings')
 df.to_sql('listings', engine, if_exists='replace', index=False)
 
 # results = engine.execute("Select * from listings")
