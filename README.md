@@ -4,6 +4,6 @@ The script.py contains SQL that can be used to query an excel file (testfile.xls
 
 ### Other than python, the following dependencies will need to be installed.
 
-> pip install pandas
-> pip install sqlalchemy
-> pip install xlrd
+> pip install pandas <br>
+> pip install sqlalchemy <br>
+> pip install xlrd <br>
